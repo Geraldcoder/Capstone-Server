@@ -8,7 +8,7 @@ const auth = require('./routes/auth')
 const connectDBX = require('./db/Xnect')
 const notFound = require('./middleware/notFound')
 const errorHandlerMiddleware = require('./middleware/error-handler')
-const authMiddleware = require('./middleware/authMiddleware')
+const authMiddleware = require('./middleware/AuthMiddleware')
 
 app.use(express.json())
 
