@@ -1,6 +1,6 @@
 const Task = require('../models/task')
 const { StatusCodes } = require('http-status-codes')
-const { NotFoundError, BadRequestError } = require('../errors/CustomError')
+const { NotFoundError, BadRequestError } = require('../errors/customError')
 
 // ----------- ALL TASK -----------------
 const getAllTasks = async (req, res, next) => {
